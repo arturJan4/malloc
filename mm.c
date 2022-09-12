@@ -1,6 +1,4 @@
 /*
-  Artur Jankowski, indeks: 317928
-  Oświadczam, że jestem jednym autorem kodu źródłowego.
   Niektóre fragmenty zostały zaczerpnięte z rozwiązań zawartych w dostarczonych
   przez prowadzącego plikach "mm.c", "mm-implicit.c" oraz w rozdziale 9.9
   CSAPP.
