@@ -2,10 +2,10 @@
 ## Description
 fast and efficient malloc() algorithm (and of course free(), calloc(), realloc())
 
-parts not inside `mm.c` (main malloc aloritm) were provided by the lecturer!, also some CSAPP libraries were used 
+parts not inside `mm.c` (main malloc alorithm) were provided by the lecturer!, also some CSAPP libraries were used 
 
 ## Features
-This project was complicated mainly because of course I couldn't use dynamic memory allocation here, so the data structure must be hidden inside the memory heap and alignments must be calculated carefully by hand. Also, trying to optimize it against given memory traces was fun!
+This project was complicated, because I couldn't use dynamic memory allocation here, so the data structure must be hidden inside the memory heap. Also alignments must be calculated carefully or you get some nasty, hard to find errors (drawing and using invariant checker helped). Also, trying to optimize it against given memory traces was fun!
 
 - uses implicit list of free blocks divided into segments (each for a power of 2)
 - each segment is a linked list (FIFO)
